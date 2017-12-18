@@ -1,4 +1,4 @@
-## Regression-Healthcare-analytics
+## Descriptive-Healthcare-analytics: Stratification and Bivariate tests
 ### Overview:
   - Language: R
   - DataSet:
@@ -19,5 +19,19 @@
   - dplyr: calculate means and standard deviations
   - questionr: weighted analysis
   - MASS: Allows you to do bivariate test
+#### Hypothesis: not necessuary in descriptive analysis but can guide the analysis
+  - need defined Subpopulation - Hispanics
+  - Defined Exposure - Engaging in regular excerice
+  - Define Outcome - lower risk of diabetes.
+  - Final Hypothesis; Among Hispanics, engaging in regular excercise is associated with a lower risk of diabetes.
+#### Confounding varibales: 
+  - Associated with exposure
+  - Associated with outcome
+  - not on the casual pathway
+  - So each pain of exposure and outcome, you define a confounding variable.
+  - Ex: Smoking causes cancer but we want to study the relationship b/n drinking and cancer. If person is drinker and smoker both then Smoking is confounding the relationship b/n drinking and cancer 
+
+  
+
 
 
